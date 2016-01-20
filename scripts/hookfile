@@ -1,8 +1,21 @@
 #!/usr/bin/env node
 'use strict';
 
-var spawn = require('child_process').spawn;
+console.log('hello');
+var fs = require('fs');
+var path = require('path');
 var cwd = process.env.PWD || process.cwd();
+
+// change cwd to hudl webapp directory
+var webappDir = fs.readdirSync(cwd).filter(function(file) {
+  var regex = /Hudl.(.*).Webapp/g;
+  if (file.match(regex) !== null && fs.statSync(path.join(cwd, file)).isDirectory()) {
+    process.chdir(path.join(cwd, file));
+    cwd = process.cwd();
+  }
+});
+
+var spawn = require('child_process').spawn;
 
 var path = require('path');
 var hookName = process.argv[1].split(path.sep).pop();
