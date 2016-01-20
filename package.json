@@ -37,5 +37,8 @@
     "faucet": "0.0.1",
     "proxyquire": "^1.4.0",
     "tape": "^4.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.thorhudl.com"
   }
 }
