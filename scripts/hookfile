@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-console.log('hello');
 var fs = require('fs');
 var path = require('path');
 var cwd = process.env.PWD || process.cwd();
