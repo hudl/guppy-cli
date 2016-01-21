@@ -1,6 +1,6 @@
 {
   "name": "guppy-cli",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Commandline functionality for git-guppy",
   "main": "index.js",
   "bin": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/therealklanni/guppy-cli.git"
+    "url": "https://github.com/hudl/guppy-cli.git"
   },
   "keywords": [
     "guppy"
@@ -23,9 +23,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/therealklanni/guppy-cli/issues"
+    "url": "https://github.com/hudl/guppy-cli/issues"
   },
-  "homepage": "https://github.com/therealklanni/guppy-cli",
+  "homepage": "https://github.com/hudl/guppy-cli",
   "dependencies": {
     "async": "^0.9.0",
     "map-stream": "0.0.5",
