@@ -1,6 +1,6 @@
 {
   "name": "guppy-cli",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Commandline functionality for git-guppy",
   "main": "index.js",
   "bin": {
@@ -39,6 +39,6 @@
     "tape": "^4.0.0"
   },
   "publishConfig": {
-    "registry": "http://npm.thorhudl.com"
+    "registry": "http://npm-push.hudltools.com"
   }
 }
